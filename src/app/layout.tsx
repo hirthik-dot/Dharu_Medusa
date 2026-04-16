@@ -13,7 +13,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "SorryDharu 🌸",
+  title: "Fleurs Pour Dharu 🌸",
   description: "A personalized digital bouquet sender made with love.",
 };
 

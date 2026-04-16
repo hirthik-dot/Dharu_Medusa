@@ -1,4 +1,4 @@
-# SorryDharu 🌸
+# Fleurs Pour Dharu 🌸
 
 A romantic digital bouquet sender built with Next.js 14 App Router and Tailwind CSS.
 

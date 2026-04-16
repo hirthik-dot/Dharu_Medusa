@@ -57,7 +57,7 @@ function ViewContent() {
       <section className="relative z-10 mx-auto w-full max-w-3xl">
         {/* Header */}
         <div className="rounded-t-3xl border border-b-0 border-[#f0d9e3] bg-white/85 p-6 text-center shadow-sm backdrop-blur sm:p-10">
-          <p className="text-xs uppercase tracking-[0.28em] text-[#9f6b82]">Bouquet Received</p>
+          <p className="text-xs uppercase tracking-[0.28em] text-[#9f6b82]">Fleurs Pour Dharu</p>
           <h1 className="mt-3 text-4xl text-[#5a3d49] sm:text-5xl">
             A bouquet, just for you 🌸
           </h1>
