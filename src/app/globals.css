@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fff8f6;
+  --foreground: #412f36;
+  --card: #fffaf9;
+  --accent: #ea8db4;
+  --accent-soft: #f6d6e3;
+  --border-soft: #f0dce4;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading), Georgia, "Times New Roman", serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.romantic-bg {
+  background: radial-gradient(circle at top, #fffdfd 0%, #ffe8ef 40%, #fff8f6 100%);
+}
+
+.petal {
+  position: absolute;
+  top: -40px;
+  width: 14px;
+  height: 10px;
+  border-radius: 65% 35% 70% 30%;
+  opacity: 0.4;
+  background: #f6bbcf;
+  animation: drift var(--duration) linear infinite;
+  animation-delay: var(--delay);
+  left: var(--left);
+}
+
+@keyframes drift {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate3d(30px, 20vh, 0) rotate(90deg);
+  }
+  50% {
+    transform: translate3d(-22px, 50vh, 0) rotate(180deg);
+  }
+  100% {
+    transform: translate3d(16px, 110vh, 0) rotate(300deg);
+  }
+}
